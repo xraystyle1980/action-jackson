@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 
 const DribbblePostsWrapper = styled.div`
-background: red;
+background: yellow;
 height:100px;
 `;
 const ErrorMessage = styled.div`
