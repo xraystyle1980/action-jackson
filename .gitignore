@@ -8,3 +8,9 @@ yarn.lock
 # Build directory
 /public
 .DS_Store
+
+# IDE
+.idea
+
+#Work Files
+notes
