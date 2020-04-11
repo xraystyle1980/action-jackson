@@ -4,11 +4,12 @@ import styled from 'styled-components'
 
 
 const DribbblePostsWrapper = styled.div`
+background: red;
+height:100px;
 `;
 const ErrorMessage = styled.div`
 `;
-const DribbblePostPlaceholder = styled.div`
-`;
+
 const DribbblePost = styled.div`
 `;
 
@@ -24,7 +25,31 @@ const Spinner = styled.div`
 
 
 
+const StyledPlaceholder = styled.div`
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+`;
 
+
+
+const StyledPlaceholderInner = styled.span`
+  display: block;
+  width: 100%;
+  padding-bottom: 75%;
+
+  background-size: 200% 200%;
+
+`;
+
+function DribbblePostPlaceholder() {
+  return (
+    <StyledPlaceholder>
+      <StyledPlaceholderInner />
+    </StyledPlaceholder>
+  );
+}
 
 
 
