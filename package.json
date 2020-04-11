@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "axios": "^0.19.2",
     "gatsby": "^2.19.32",
     "gatsby-plugin-manifest": "^2.2.44",
     "gatsby-plugin-offline": "^3.0.37",
@@ -15,7 +16,8 @@
     "react-helmet": "^5.2.1",
     "react-scroll-to-element": "^0.2.0",
     "react-scrollspy": "^3.4.2",
-    "react-waypoint": "^9.0.2"
+    "react-waypoint": "^9.0.2",
+    "styled-components": "^5.1.0"
   },
   "keywords": [
     "gatsby"
