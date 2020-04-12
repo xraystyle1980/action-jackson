@@ -19,16 +19,14 @@
 
 // Font.
 	$font: (
-		family:				('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
-		weight:				300,
-		weight-bold:		400,
-		letter-spacing:		-0.025em
+		family:				('mrs-eaves-xl-serif', Helvetica, sans-serif),
 	);
 
 // Palette.
 	$palette: (
-		bg:					#935d8c,
+		bg:					#FFF,
+		bright:     #DA3B5F,
+		dark: #000,
 		fg:					rgba(255,255,255,0.65),
 		fg-bold:			#ffffff,
 		fg-light:			rgba(255,255,255,0.5),

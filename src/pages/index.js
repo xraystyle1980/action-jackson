@@ -23,21 +23,40 @@ class Index extends React.Component {
 
         <Header />
 
-
-
-        <div id="main">
-          <section className="main">
-
-                <header className="major">
-                  <h2>Matt Trice Design</h2>
-                </header>
+        <div>
+          <section>
+                <h2>Matt Trice Design</h2>
                 <p>
                   Designer in the ATL area.
                   Pushing pixels for Decent Labs.
                   Yes, I do UX AND UI. I know.
                 </p>
+                <section>
 
-      
+                  <ul className="icons">
+
+
+                    <li>
+                      <a href="https://codebushi.com" className="icon fa-instagram">
+                        <span className="label">Instagram</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/codebushi/gatsby-starter-stellar"
+                        className="icon fa-github"
+                      >
+                        <span className="label">GitHub</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://codebushi.com" className="icon fa-dribbble">
+                        <span className="label">Dribbble</span>
+                      </a>
+                    </li>
+                  </ul>
+                </section>
+
           </section>
 
 

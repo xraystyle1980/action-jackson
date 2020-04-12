@@ -32,7 +32,7 @@
 	));
 
 	@mixin color($p) {
-		@include color-typography($p);
+	
 		@include color-box($p);
 		@include color-button($p);
 		@include color-form($p);

@@ -13,7 +13,7 @@
 			'border-top-right-radius #{_duration(transition)} ease',
 			'padding #{_duration(transition)} ease',
 		));
-		@include color-typography(invert);
+	
 		position: absolute;
 		width: _size(inner);
 		max-width: calc(100% - #{_size(element-margin) * 2});
