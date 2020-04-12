@@ -56,11 +56,8 @@ function DribbblePostPlaceholder() {
 
 
 
-
-
 function DribbblePosts() {
   const SHOTS_PER_PAGE = 4;
-  const GATSBY_DRIBBBLE_TOKEN = '';
 
   const [isLoading, setIsLoading] = React.useState(true);
   const [isLoadingMore, setIsLoadingMore] = React.useState(false);
@@ -79,7 +76,7 @@ function DribbblePosts() {
       try {
         if (!postsFetched) {
           dribbbleRes = await axios.get(
-            `https://api.dribbble.com/v2/user/shots?access_token=${GATSBY_DRIBBBLE_TOKEN}&page=${dribbblePage}&per_page=${SHOTS_PER_PAGE}`
+            `https://api.dribbble.com/v2/user/shots?access_token=${process.env.GATSBY_DRIBBBLE_TOKEN}&page=${dribbblePage}&per_page=${SHOTS_PER_PAGE}`
           );
           setPostsFetched(true);
         }

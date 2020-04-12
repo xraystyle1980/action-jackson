@@ -14,3 +14,5 @@ yarn.lock
 
 #Work Files
 notes
+
+.env.develop
