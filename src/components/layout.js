@@ -1,7 +1,7 @@
 import React from 'react'
 import '../assets/scss/main.scss'
 
-import Footer from './Footer'
+
 
 class Template extends React.Component {
   constructor(props) {
@@ -31,7 +31,7 @@ class Template extends React.Component {
         <div id="wrapper">
 
           {children}
-          <Footer />
+
         </div>
       </div>
     )

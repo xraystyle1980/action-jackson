@@ -4,21 +4,20 @@ import styled from 'styled-components'
 
 
 const LogoContainer = styled.div`
-  margin: 12em 0 4em 0;
+  margin: 4em 0 4em 0;
   img {
     max-width: 100%;
+    width: 800px;
   }
 `;
 
 
-
-
 const Header = (props) => (
-    <header>
-      <LogoContainer>
-        <img src={logo} alt="Matt Trice Design Logo" />
-      </LogoContainer>
-    </header>
+  <header>
+    <LogoContainer>
+      <img src={logo} alt="Matt Trice Design Logo" />
+    </LogoContainer>
+  </header>
 )
 
 export default Header
