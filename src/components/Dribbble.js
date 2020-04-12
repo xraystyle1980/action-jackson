@@ -60,7 +60,7 @@ function DribbblePostPlaceholder() {
 
 function DribbblePosts() {
   const SHOTS_PER_PAGE = 4;
-  const GATSBY_DRIBBBLE_TOKEN = '8020578d5d6b82e663dce88e1786aa6178a39e88de9599136c9d8890e4ab45c8';
+  const GATSBY_DRIBBBLE_TOKEN = '';
 
   const [isLoading, setIsLoading] = React.useState(true);
   const [isLoadingMore, setIsLoadingMore] = React.useState(false);
