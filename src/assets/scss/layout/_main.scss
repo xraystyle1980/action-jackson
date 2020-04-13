@@ -7,8 +7,6 @@
 /* Main */
 
 
-
-
 .marmal-container {
 	background-image: url("../images/trice-headshot-marmal.jpg");
 	background-size: cover;
@@ -16,12 +14,26 @@
 	background-position: top center;
 	position: relative;
 	height: 100vh;
-	@include breakpoint(xlarge) {
-
+	width: 100%;
+  margin: 4em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+	img.top {
+		width: 100%;
+	  max-width: 100%;
+	  position: relative;
+	  top: -10px;
+		background-color: aqua;
+	}
+	img.bottom {
+		width: 100%;
+	  max-width: 100%;
+	  position: relative;
+	  bottom: -10px;
+		background-color: aqua;
 	}
 }
-
-
 
 
 	#main {
