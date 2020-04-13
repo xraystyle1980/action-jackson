@@ -31,7 +31,26 @@ class Index extends React.Component {
     return (
       <>
       <Layout>
-        <Helmet title="Matt Trice Design" />
+        <Helmet>
+
+          {/*<!-- Primary Meta Tags -->*/}
+          <meta name="title" content="Matty Trice Design" />
+          <meta name="description" content="I'm a UX Designer in the ATL area. I love to make really cool things with really cool people." />
+          <link rel="canonical" href="https://trice.design" />
+          {/*<!-- Open Graph / Facebook -->*/}
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://trice.design/" />
+          <meta property="og:title" content="Matt Trice Design" />
+          <meta property="og:description" content="I'm a UX Designer in the ATL area. I love to make really cool things with really cool people." />
+          <meta property="og:image" content="https://trice.design/static/trice-headshot-marmal-c79461adf7ab24d1f0414ceaab88311c.jpg" />
+
+          {/*<!-- Twitter -->*/}
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://trice.design/" />
+          <meta property="twitter:title" content="Matt Trice Design" />
+          <meta property="twitter:description" content="I'm a UX Designer in the ATL area. I love to make really cool things with really cool people." />
+          <meta property="twitter:image" content="https://trice.design/static/trice-headshot-marmal-c79461adf7ab24d1f0414ceaab88311c.jpg" />
+        </Helmet>
 
         <Header />
 
