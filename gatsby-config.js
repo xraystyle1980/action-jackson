@@ -5,9 +5,9 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Stellar by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Stellar by HTML5 UP"
+    title: "Matt Trice Design",
+    author: "Matt Trice",
+    description: "I am an Atlanta based designer specializing in UI and Web Design, UX Design, and prototyping."
   },
   plugins: [
     'gatsby-plugin-react-helmet',

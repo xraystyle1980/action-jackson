@@ -18,15 +18,9 @@
 		font-size: 18px;
 		font-weight: _font(weight);
 		line-height: 1.65;
-
-		@include breakpoint(xlarge) {
-
-		}
-
 		@include breakpoint(large) {
 			font-size: 16px;
 		}
-
 		@include breakpoint(xxsmall) {
 			font-size: 14px;
 		}
@@ -35,6 +29,7 @@
 	a {
 		@include vendor('transition', (
 			'color #{_duration(transition)} ease',
+			'background-color #{_duration(transition)} ease',
 			'border-bottom #{_duration(transition)} ease'
 		));
 		text-decoration: none;
@@ -42,7 +37,13 @@
 		color: inherit;
 
 		&:hover {
-			border-bottom-color: transparent;
+			color: #FFF !important;
+			background-color: _palette(decent-purple);
+			border-bottom: transparent;
+		}
+
+		&.decent-purple {
+			color: _palette(decent-purple);
 		}
 	}
 
@@ -58,6 +59,9 @@
 		margin: 0 0 _size(element-margin) 0;
 		&.large {
 			font-size: 1.5rem;
+			@include breakpoint(medium) {
+				font-size: 1rem;
+			}
 		}
 	}
 

@@ -13,8 +13,20 @@ const MainSection = styled.section`
 `;
 
 const BioContainer = styled.div`
-  padding: 0 12em;
+
   text-align: left;
+  @media (min-width: 1681px) {
+    width: 65%;
+  }
+  @media (max-width: 1680px) {
+    width: 65%;
+  }
+  @media (max-width: 880px) {
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const MarmalContainer = styled.div`
@@ -49,7 +61,7 @@ class Index extends React.Component {
     return (
       <>
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="Matt Trice Design" />
 
         <Header />
 
@@ -59,25 +71,24 @@ class Index extends React.Component {
               <h2>Matt Trice Design</h2>
               <p className="large">
                 Hello, my name is Matt Trice. I'm a Designer in the ATL area.
-                I'm currently pushing pixels and making really cool things with really cool people at Decent Labs. Yes, I do UX <span style={{ fontWeight: '900' }}>&amp;</span> UI. I know.
+                I'm currently pushing pixels and making really cool things with really cool people at <a href="//decentlabs.io" className="decent-purple">Decent Labs</a>.
               </p>
               <section>
                 <ul className="icons">
                   <li>
-                    <a href="https://www.instagram.com/trice.design/" className="icon fa-instagram">
+                    <a href="https://www.instagram.com/trice.design/" className="icon larger fa-instagram">
                       <span className="label">Instagram</span>
                     </a>
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/matt-trice-5053b325/"
-                      className="icon fa-linkedin"
+                      href="https://www.linkedin.com/in/matt-trice-5053b325/" className="icon larger fa-linkedin"
                     >
                       <span className="label">GitHub</span>
                     </a>
                   </li>
                   <li>
-                    <a href="https://dribbble.com/trice" className="icon fa-dribbble">
+                    <a href="https://dribbble.com/trice" className="icon larger fa-dribbble">
                       <span className="label">Dribbble</span>
                     </a>
                   </li>

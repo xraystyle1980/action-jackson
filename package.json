@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-stellar",
-  "description": "Gatsby Starter - Stellar by HTML5 UP",
+  "name": "matt-trice-design",
+  "description": "Matt Trice Design",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Matt Trice",
   "dependencies": {
     "axios": "^0.19.2",
     "gatsby": "^2.19.32",
@@ -34,6 +34,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/xraystyle1980/action-jackson"
   }
 }
