@@ -1,9 +1,10 @@
 import { Link } from 'gatsby'
 import React from 'react'
+import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import Header from '../components/Header'
 import Layout from '../components/layout'
-import styled from 'styled-components'
+
 import top from '../assets/images/trice-headshot-marmal-top.svg'
 import bottom from '../assets/images/trice-headshot-marmal-bottom.svg'
 import Footer from '../components/Footer'
