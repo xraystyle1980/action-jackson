@@ -53,7 +53,7 @@ class Index extends React.Component {
         <div>
           <MainSection>
             <BioContainer>
-              <h2>Matt Trice Design</h2>
+              <h2>Matt Trice Design | trice.design Home</h2>
               <p className="large">
                 Hello, my name is Matt Trice. I'm a Designer in the ATL area.
                 I'm currently pushing pixels and making really cool things with really cool people at <a href="//decentlabs.io" className="decent-purple">Decent Labs</a>.
