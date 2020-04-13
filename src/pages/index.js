@@ -1,5 +1,6 @@
-import { Link } from 'gatsby'
 import React from 'react'
+import styled from 'styled-components'
+import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Header from '../components/Header'
 import Layout from '../components/layout'
@@ -7,7 +8,7 @@ import top from '../assets/images/trice-headshot-marmal-top.svg'
 import bottom from '../assets/images/trice-headshot-marmal-bottom.svg'
 import Footer from '../components/Footer'
 
-import styled from 'styled-components'
+
 const MainSection = styled.section`
 
 `;
@@ -46,14 +47,14 @@ class Index extends React.Component {
     return (
       <>
       <Layout>
-        <Helmet title="Matt Trice Design" />
+        <Helmet title="Matt Trice Design | trice.design Home" />
 
         <Header />
 
         <div>
           <MainSection>
             <BioContainer>
-              <h2>Matt Trice Design | trice.design Home</h2>
+              <h2>Matt Trice Design</h2>
               <p className="large">
                 Hello, my name is Matt Trice. I'm a Designer in the ATL area.
                 I'm currently pushing pixels and making really cool things with really cool people at <a href="//decentlabs.io" className="decent-purple">Decent Labs</a>.
