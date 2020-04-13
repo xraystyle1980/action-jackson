@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Header from '../components/Header'
 import Layout from '../components/layout'
@@ -47,6 +46,11 @@ class Index extends React.Component {
               <section>
                 <ul className="icons">
                   <li>
+                    <a href="https://dribbble.com/trice" className="icon larger fa-dribbble">
+                      <span className="label">Dribbble</span>
+                    </a>
+                  </li>
+                  <li>
                     <a href="https://www.instagram.com/trice.design/" className="icon larger fa-instagram">
                       <span className="label">Instagram</span>
                     </a>
@@ -55,12 +59,7 @@ class Index extends React.Component {
                     <a
                       href="https://www.linkedin.com/in/matt-trice-5053b325/" className="icon larger fa-linkedin"
                     >
-                      <span className="label">GitHub</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://dribbble.com/trice" className="icon larger fa-dribbble">
-                      <span className="label">Dribbble</span>
+                      <span className="label">LinkedIn</span>
                     </a>
                   </li>
                 </ul>
