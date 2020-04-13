@@ -32,7 +32,7 @@ class Index extends React.Component {
     return (
       <>
       <Layout>
-        <Helmet title="Matt Trice Design | trice.design Home" />
+        <Helmet title="Matt Trice Design" />
 
         <Header />
 

@@ -27,7 +27,35 @@
 		background-position: top center;
 		position: relative;
 		top: -28px;
-		height: 100vh;
+		height: 500px;
+		width: 100%;
+	  margin: 0;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-between;
+	}
+	@include breakpoint(small) {
+		background-image: url("../images/trice-headshot-marmal.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top center;
+		position: relative;
+		top: -28px;
+		height: 340px;
+		width: 100%;
+	  margin: 0;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-between;
+	}
+	@include breakpoint(xsmall) {
+		background-image: url("../images/trice-headshot-marmal.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top center;
+		position: relative;
+		top: -28px;
+		height: 300px;
 		width: 100%;
 	  margin: 0;
 	  display: flex;
