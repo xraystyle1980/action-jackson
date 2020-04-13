@@ -30,32 +30,17 @@ const BioContainer = styled.div`
 `;
 
 const MarmalContainer = styled.div`
-  width: 100%;
-  margin: 4em 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 `;
 
 const Top = styled.img`
-  width: 100%;
-  max-width: 100%;
-  position: relative;
-  top: -10px;
 `;
 
 const Bottom = styled.img`
-  width: 100%;
-  max-width: 100%;
-  position: relative;
-  bottom: -10px;
 `;
-
 
 
 
 class Index extends React.Component {
-
 
   render() {
     return (
@@ -100,8 +85,8 @@ class Index extends React.Component {
 
       </Layout>
       <MarmalContainer className="marmal-container">
-        <Top src={top} alt="wavy graphic at the top" />
-        <Bottom src={bottom} alt="wavy graphic at the bottom" />
+        <Top src={top} className="top" alt="wavy graphic at the top" />
+        <Bottom src={bottom} className="bottom" alt="wavy graphic at the bottom" />
       </MarmalContainer>
       <Footer />
       </>
