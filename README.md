@@ -7,3 +7,5 @@
 
 # gatsby-starter-stellar
 Gatsby.js V2 starter based on the Stellar site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
+
+How about now?
