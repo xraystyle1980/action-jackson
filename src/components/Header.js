@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 
 const LogoContainer = styled.div`
-  margin: 4em 0 4em 0;
+  margin: 4em 0 1.5em 0;
   img {
     max-width: 100%;
     width: 800px;
