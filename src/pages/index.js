@@ -84,7 +84,7 @@ class Index extends React.Component {
         </div>
 
       </Layout>
-      <MarmalContainer className="marmal-container">
+      <MarmalContainer className="container__marmal">
         <Top src={top} className="top" alt="wavy graphic at the top" />
         <Bottom src={bottom} className="bottom" alt="wavy graphic at the bottom" />
       </MarmalContainer>
