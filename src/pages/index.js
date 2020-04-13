@@ -43,14 +43,14 @@ class Index extends React.Component {
           <meta property="og:url" content="https://trice.design/" />
           <meta property="og:title" content="Matt Trice Design" />
           <meta property="og:description" content="I'm a UX Designer in the ATL area. I love to make really cool things with really cool people." />
-          <meta property="og:image" content={'/trice-design-share.png'} />
+          <meta property="og:image" content={'../../trice-design-share.png'} />
 
           {/*<!-- Twitter -->*/}
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://trice.design/" />
           <meta property="twitter:title" content="Matt Trice Design" />
           <meta property="twitter:description" content="I'm a UX Designer in the ATL area. I love to make really cool things with really cool people." />
-          <meta property="twitter:image" content={'/trice-design-share.png'} />
+          <meta property="twitter:image" content={'../../trice-design-share.png'} />
         </Helmet>
 
         <Header />
