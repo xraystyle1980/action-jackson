@@ -49,6 +49,23 @@
 }
 
 
+.container__bio {
+	text-align: left;
+	@media (min-width: 1681px) {
+		width: 65%;
+	}
+	@media (max-width: 1680px) {
+		width: 65%;
+	}
+	@media (max-width: 880px) {
+		width: 100%;
+	}
+	@media (max-width: 768px) {
+		width: 100%;
+	}
+}
+
+
 	#main {
 		@include color(invert);
 		border-radius: _size(border-radius-main);

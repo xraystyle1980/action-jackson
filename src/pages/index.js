@@ -10,24 +10,9 @@ import Footer from '../components/Footer'
 
 
 const MainSection = styled.section`
-
 `;
 
 const BioContainer = styled.div`
-
-  text-align: left;
-  @media (min-width: 1681px) {
-    width: 65%;
-  }
-  @media (max-width: 1680px) {
-    width: 65%;
-  }
-  @media (max-width: 880px) {
-    width: 100%;
-  }
-  @media (max-width: 768px) {
-    width: 100%;
-  }
 `;
 
 const MarmalContainer = styled.div`
@@ -53,7 +38,7 @@ class Index extends React.Component {
 
         <div>
           <MainSection>
-            <BioContainer>
+            <BioContainer className="container__bio">
               <h2>Matt Trice Design</h2>
               <p className="large">
                 Hello, my name is Matt Trice. I'm a Designer in the ATL area.
